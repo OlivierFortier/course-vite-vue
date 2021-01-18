@@ -1,8 +1,8 @@
 <template>
-  <h1>bonjour, allo</h1>
+  <h1>Un exemple d'application vue.js pour donner un cours d'introduction</h1>
   <main>
-    <MonArticle/>
-    <MonArticle/>
+    <MonArticle :texteMaximum="2"/>
+    <MonArticle :texteMaximum="4"/>
     <MonAside/>
     <MonAside/>
     <MonAside/>
@@ -18,7 +18,7 @@ export default {
 
   components : {
     MonArticle,
-    MonAside
+    MonAside,
   }
 
 };
